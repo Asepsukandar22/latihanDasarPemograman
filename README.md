@@ -1,2 +1,4 @@
 # latihanDasarPemograman
-Latihan github
+Nama : Asep Sukandar
+Kelas : TI2023B
+Prodi : Teknik Informatika
