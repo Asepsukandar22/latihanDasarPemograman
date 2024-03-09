@@ -8,11 +8,11 @@ married = True
 adalahPerempuan = False
 hobi = ["Nonton", "Main Game","Tidur"]
 
-print(nama)
-print(semester)
-print(kelas)
-print(jurusan)
-print(quete)
-print(married)
-print(adalahPerempuan)
-print(hobi)
+print("Nama Lengkap :",nama)
+print("Semester :",semester)
+print("Kelas :",kelas)
+print("Jurusan :",jurusan)
+print("Quete :",quete)
+print("status menikah :",married)
+print("Kelamin Laki-laki :",adalahPerempuan)
+print("hobi Kamu :",hobi)
