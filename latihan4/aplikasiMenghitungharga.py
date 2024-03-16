@@ -5,6 +5,7 @@ hargaPersen = hargaSupplier *(persen /100)
 hargaJual =  hargaSupplier + hargaPersen
 
 print("Harga Dari Supplier :",hargaSupplier)
+print("Harga Dari Supplier : Rp. {}".format(hargaSupplier))
 print("Persentase keuntungan :",persen)
-print("Keuntungan Dari Persen : ",hargaPersen)
-print("Harga Jual : ",hargaJual)
+print("Keuntungan Dari Persen : Rp. {}".format(hargaPersen))
+print("Harga Jual : Rp. {}".format(hargaJual))
