@@ -11,10 +11,16 @@ print("Nama Terakhir Saya",nama[-8:])
 print("=============Split========")
 #Spit
 alamat_array = alamat.split(', ')
+kampung = alamat_array[0]
+kecamatan = alamat_array[1]
+kabupaten = alamat_array[2]
 print("Alamat Saya array",alamat_array)
-print("Alamat Kampung Saya",alamat_array[0])
-print("Alamat Kecamatan Saya",alamat_array[1])
-print("Alamat Kabupaten Saya",alamat_array[2])
+print("Alamat Kampung Saya",kampung)
+print("Alamat Kecamatan Saya",kecamatan)
+print("Alamat Kabupaten Saya",kabupaten)
+
+print("Saya Tinggal di Kampung",kampung," Kecamatan", kecamatan,"Kabupaten",kabupaten)
+print(f'Saya Tinggal di Kampung {kampung} Kecamatan {kecamatan} Kabupaten{kabupaten}')
 
 print("=============Join String========")
 #Join String
